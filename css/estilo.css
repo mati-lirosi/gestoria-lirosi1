@@ -80,7 +80,6 @@ border :3px solid green;
 }
 
 
-
 p{color :white;
 }
 
@@ -101,7 +100,7 @@ p{color :white;
 .grid-article{display:grid;
  grid-template-columns: 150px 150 px  150px;
  grid-template-rows:  200px 200px 200px 200px  ;
-margin-right: 11%;
+  
 
 }
 
@@ -125,30 +124,31 @@ padding :15px;
 .mapagps{display: block;
 }
 
-.video{   margin-right: 50px;
-  margin-left: 300px;
+.video-contacto{   
+  margin-right: 350px;
+  margin-left: 350px;
+  margin-bottom: 2px;
 }
 
 
 .grid-container{
   display:grid;
   grid-template-areas: "grid-footer";
-  background: BLUE;
+  background: black;
   border: solid; 155px ;
   border-color: yellow;
   border-radius: 15px;
-  text-align: center;
+  text-align: left;
    margin-top: 25px;
-  margin-right: 70px;
-  margin-left: 70px;
+  margin-right: 250px;
+  margin-left: 250px;
   margin-bottom: 50px;
 padding:1px;
 }
-.grid-item{display: inline;
- 
+.grid-item{display: flex;
+  flex-wrap: wrap;
+ padding-left: 420px;
  border-radius: 15px;
-  
-align-content: center;
   
 
 }
@@ -158,7 +158,8 @@ align-content: center;
   color: transparent;  
   font-size: 20PX;
   margin: 2px;
-  padding: 20px;
+  padding: 1px;
+ text-align: center;
   margin-bottom: 25px;
 
 }
@@ -196,6 +197,7 @@ font-family: monospace;
   border-color:black ;
   border-radius:  15px;
 margin-left: 1px;
+margin-bottom: 55px;
 padding-left:auto ;
  font-family:'Montserrat',sans-serif;
 }
@@ -205,8 +207,10 @@ padding-left:auto ;
 
 
 }
-.video{ margin: 10px 10px 10px 10px;
-  
+.video-contacto{
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-bottom: 50px;
 }
 
 .mandatarios-index.mapagps{grid;
@@ -214,6 +218,30 @@ padding-left:auto ;
  margin: 5px 5px 5px 70px;
   border: solid  black;
 }
-.grid-item{display: flex ;
-flex-wrap: wrap;
-margin-right: 10px;}
+
+
+
+
+  .grid-item{display: flex: ;
+ padding-left: 200px;
+  padding-right: 200px;
+ border-radius: 5px;
+
+}
+
+.grid-container{  display: flex;
+  flex-wrap: wrap;
+  background: black;
+  border: solid; 15px ;
+  border-color: yellow;
+  border-radius: 5px;
+   margin-top: 200px;
+   margin-bottom: 300px;
+  padding-left: 110px;
+  padding-right: 550px;
+  margin-left: 2px;
+}
+.gridPfooter{padding-left: 180px;
+
+  }
+.horario{padding-bottom: 225px; }
