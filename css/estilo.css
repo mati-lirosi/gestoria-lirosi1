@@ -48,8 +48,6 @@ border-style:  solid  ;
 }
 
 
-
-
 .lista-gridcontainer{display: grid  ;
 
  grid-template-columns: 150px 150 px 1fr 1fr ;
